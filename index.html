@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 5</title>
+</head>
+<body>
+    <script>
+        // const req = {
+        //     status: 200,
+        //     msg: "Get Data Seccesfuly",
+        //     body :{
+        //         name: "Putra",
+        //         age: "19",
+        //         major: "Informatika",
+        //     }
+        // }
+        // const { name, age, major} = req.body
+        
+        // const family = [ "Putra", "Azmi" , "Aldi"];
+        // const [putra, azmi, aldi] = family;
+        // console.log(putra)
+        
+            // function showFam( husband, wife, ...children){
+            //     for(const child of children){
+            //         console.log(child)
+            //     }
+            // }
+            // showFam("Mike","Hannah","Putra","Azmi","Rafi")
+
+        // const user = {
+        //     name : "Putra",
+        //     major : "Informatika",
+        // }
+        // const newUser = {
+        //     ...user,
+        //     age : 19
+        // }
+
+        // console.log(newUser)
+
+        // const name = ["Putra", "Azmi", "Aldi"]
+        // const formattedName = name.map(function(name){
+        //     return `Mr ${name}`
+        // })
+        // console.log(formattedName);
+
+            // const users = [
+            //     {
+            //         name: "Putra",
+            //         age: 21,
+            //     },
+            //     {
+            //         name: "Azmi",
+            //         age: 41,
+            //     },
+            //     {
+            //         name: "Aldi",
+            //         age: 30,
+            //     },
+            // ];
+
+            //     const foundUser = users.find(function(user){
+            //         return user.age > 21 ;
+            //     });
+
+            //     console.log(foundUser);
+
+            function download(){
+                setTimeout(() => {
+                    console.log('Downloading...')
+                }, 3000);  
+            }
+            function verify(){
+                setTimeout(() => {
+                    console.log('Verify...')
+                }, 2000);          
+            }
+            function notify(){
+               console.log('Download Complete ...')    
+            }
+            function main(){
+                download()
+                verify()
+                notify()
+            }
+            main()
+    </script>
+</body>
+</html>
